@@ -40,12 +40,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
-    @OnClick(R.id.button2)
-    public void checkAllBoxes(View view) {
-        List<Entry> entries = new ArrayList<>();
-        entries =dbHandler.getEntries();
-        Log.e("Entries:",entries.get(0).getLastName()+"");
-    }
     public boolean validateFields(){
         if(etFirstName.getText().toString().isEmpty()) {
             Toast.makeText(getApplicationContext(), "Firstname is required", Toast.LENGTH_SHORT).show();
