@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestProjCodeRepubliq</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+
+
+</resources>
